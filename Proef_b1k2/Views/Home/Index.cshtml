@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>MBO Open</h1>
+</div>
+
+<div class="row">
+    <div class="col-md-2">
+        <p><a>@Html.ActionLink("Basisgegevens", "Basisgegevens", "Home")</a></p>
+    </div>
+    <div class="col-md-2">
+        <p><a>@Html.ActionLink("Aanmelden", "Aanmelden", "Home")</a></p>
+    </div>
+    <div class="col-md-2">
+        <p><a @Html.ActionLink("Wedstrijden", "Wedstrijden", "Home")</a></p>
+    </div>
+</div>
+
